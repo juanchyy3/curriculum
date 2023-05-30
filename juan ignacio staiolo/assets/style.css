@@ -1,15 +1,37 @@
 #banner{
-    width: 80vw;
-    height: 30vh;
-    margin-bottom: -1.21%;
-    
+    width: 100vw;
+    height: 30.6vh;
+display: flex;
+flex-direction: row;
+align-items: center;
+flex-wrap: wrap;
+  
 }
 #foto{
     width: 15%;
-    display: inline-block;
-    margin-top: -150%;
     border-color: red;
     border-style: solid;
     border-width: 5px;
     border-radius: 1%;
+    display: flex;
+    justify-content: start;
+    margin-top: -15.65%;
+    flex-wrap: wrap;
+}
+header>ul{
+    display: flex;
+    justify-content: end;
+    margin-top: -2%;
+    flex-wrap: wrap;
+}
+header>ul>li{
+    display: inline-block;
+    margin-left: 1%;
+
+}
+header>ul>li>a{
+    color: red;
+    background-color: white;
+    font-size: 80%;
+
 }

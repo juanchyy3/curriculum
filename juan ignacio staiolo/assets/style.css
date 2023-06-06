@@ -1,11 +1,16 @@
+body{
+    margin:1.5%;
+    background-color: rgb(108, 12, 12);
+    }
+
 #banner{
     width: 100vw;
-    height: 30.6vh;
+    height: 31vh;
 display: flex;
 flex-direction: row;
 align-items: center;
 flex-wrap: wrap;
-  
+  margin-top: 1%;
 }
 #foto{
     width: 15%;
@@ -15,8 +20,9 @@ flex-wrap: wrap;
     border-radius: 1%;
     display: flex;
     justify-content: start;
-    margin-top: -15.65%;
+    margin-top: -16%;
     flex-wrap: wrap;
+    position: relative;
 }
 header>ul{
     display: flex;
@@ -34,4 +40,26 @@ header>ul>li>a{
     background-color: white;
     font-size: 80%;
 
+}
+ul>li{
+    font-size: 150%;
+}
+#Experiencia{
+background-color: rgba(7, 32, 32, 0.289);
+color: bisque;
+}
+#Estudios{
+    background-color: rgb(10, 7, 32);
+    color: bisque;
+}
+#Herramientas{
+    background-color: rgb(32, 32, 7);
+    color: bisque;
+}
+#Idioma{
+    background-color: rgb(74, 18, 7);
+    color: bisque;
+}
+h1{
+    color: bisque;
 }

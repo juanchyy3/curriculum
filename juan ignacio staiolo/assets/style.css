@@ -1,6 +1,6 @@
 body{
     margin:1.5%;
-    background-color: rgb(108, 12, 12);
+    background-color: rgb(0, 0, 0);
     }
 
 #banner{
@@ -45,7 +45,7 @@ ul>li{
     font-size: 150%;
 }
 #Experiencia{
-background-color: rgba(7, 32, 32, 0.289);
+background-color: rgba(7, 32, 32);
 color: bisque;
 }
 #Estudios{
@@ -62,4 +62,31 @@ color: bisque;
 }
 h1{
     color: bisque;
+}
+footer>p{
+    color: bisque;
+    font-size:medium;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 5%;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    display: flex;
+flex-direction: row;
+align-items: center;
+flex-wrap:wrap;
+}
+article>section{
+text-align: justify;
+}
+footer>a>img{
+    width: 20%;
+    display:flex;
+    justify-content:end;
+    flex-wrap: wrap;
+    position: relative;
+    margin-right: 0%;
+    margin-left: 150%;
 }
